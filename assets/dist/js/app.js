@@ -15,7 +15,8 @@ $(document).ready(function () {
                     title: "Atención!",
                     html: 'Debes ingresar tu ID para continuar...',
                     showConfirmButton: false,
-                    timer: 3000
+                    timer: 3000,
+                    width: '250px',
                 });
                 break;
             case quantitySelected === 0:
@@ -24,7 +25,8 @@ $(document).ready(function () {
                     title: "Atención!",
                     html: 'Debes seleccionar al menos 1 item...',
                     showConfirmButton: false,
-                    timer: 3000
+                    timer: 3000,
+                    width: '250px'
                 });
                 break;
             default:
@@ -33,7 +35,8 @@ $(document).ready(function () {
                     html: "Su pedido llegará a su cuenta en: 5 minutos.<br>Cantidad de items: " + quantitySelected + "<br>Donación #: 15019",
                     type: "success",
                     footer: 'Ezequiel',
-                    confirmButtonText: "Cerrar"
+                    showConfirmButton: false,
+                    width: '250px'
                 });
         }
     })

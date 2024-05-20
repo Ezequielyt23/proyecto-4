@@ -68,6 +68,36 @@
     background-color: #f0f0f0; /* Color de fondo del área del scroll */
 }
 
+/* sweetalert */
+
+.custom-swal-popup .swal2-icon.swal2-success {
+    font-size: 50px; /* Ajusta este valor según sea necesario */
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-ring {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-fix {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-circular-line-left,
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-circular-line-right {
+    width: 25px;
+    height: 50px;
+  }
+  
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-line-tip,
+  .custom-swal-popup .swal2-icon.swal2-success .swal2-success-line-long {
+    height: 5px; /* Ajusta este valor según sea necesario */
+  }
+
+
 @media (min-width: 768px) {
     .scrollable-div {
         max-height: 600px; 
