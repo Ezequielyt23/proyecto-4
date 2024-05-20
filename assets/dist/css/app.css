@@ -77,6 +77,6 @@
 
 @media (max-width: 767px) {
     .scrollable-div {
-        max-height: 565px;
+        max-height: 230px;
     }
 }
